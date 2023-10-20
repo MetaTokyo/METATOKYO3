@@ -1,0 +1,39 @@
+{
+  "display": {
+    "title": "METATOKYO3",
+    "favicon": "favicon_asset",
+    "navmapThumbnail": "scene-thumbnail.png"
+  },
+  "owner": "",
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "0,2",
+      "1,0",
+      "1,1",
+      "1,2"
+    ],
+    "base": "0,0"
+  },
+  "source": {
+    "version": 1,
+    "origin": "builder",
+    "projectId": "dd78013b-e76d-47c7-9d0f-314a54541b8b",
+    "point": {
+      "x": 0,
+      "y": 0
+    },
+    "rotation": "east",
+    "layout": {
+      "rows": 2,
+      "cols": 3
+    }
+  }
+}

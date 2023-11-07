@@ -6,34 +6,34 @@
   },
   "owner": "",
   "contact": {
-    "name": "author-name",
+    "name": "MISOSHITA",
     "email": ""
   },
   "main": "bin/game.js",
   "tags": [],
   "scene": {
     "parcels": [
-      "0,0",
-      "0,1",
-      "0,2",
-      "1,0",
-      "1,1",
-      "1,2"
+      "-56,68",
+      "-56,67",
+      "-55,68",
+      "-55,67",
+      "-54,68",
+      "-54,67"
     ],
-    "base": "0,0"
+    "base": "-56,67"
   },
   "source": {
     "version": 1,
     "origin": "builder",
-    "projectId": "dd78013b-e76d-47c7-9d0f-314a54541b8b",
+    "projectId": "fd9151cd-eaed-48bd-a040-cd4fc29a1967",
     "point": {
       "x": 0,
       "y": 0
     },
     "rotation": "east",
     "layout": {
-      "rows": 2,
-      "cols": 3
+      "rows": 3,
+      "cols": 2
     }
   }
 }

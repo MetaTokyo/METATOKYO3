@@ -1,8 +1,8 @@
 import { createChannel } from '../node_modules/decentraland-builder-scripts/channel'
 import { createInventory } from '../node_modules/decentraland-builder-scripts/inventory'
-import Script1 from "../901e4555-8743-49bb-854c-c8b354a3e3e1/src/item"
-import Script2 from "../7d669c08-c354-45e4-b3a3-c915c8fd6b6e/src/item"
-import Script3 from "../b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
+import Script1 from "../b88efbbf-2a9a-47b4-86e1-e38ecc2b433b/src/item"
+import Script2 from "../a747f104-5434-42a8-a543-8739c24cf253/src/item"
+import Script3 from "../b853061a-bf5a-4d76-b7f1-92ed9ea4a8bf/src/item"
 
 const _scene = new Entity('_scene')
 engine.addEntity(_scene)
@@ -13,661 +13,202 @@ const transform = new Transform({
 })
 _scene.addComponentOrReplace(transform)
 
-const metaaniKpp = new Entity('metaaniKpp')
-engine.addEntity(metaaniKpp)
-metaaniKpp.setParent(_scene)
+const hasedera3 = new Entity('hasedera3')
+engine.addEntity(hasedera3)
+hasedera3.setParent(_scene)
 const transform2 = new Transform({
-  position: new Vector3(15, 0.49649572372436523, 17),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(16.908781051635742, 16.908781051635742, 16.326169967651367)
+  position: new Vector3(31.860015869140625, 0.4155002236366272, 16.25336456298828),
+  rotation: new Quaternion(7.765282964171047e-15, -3.725290298461914e-8, 1.016901169661414e-14, -1),
+  scale: new Vector3(0.9018571376800537, 0.9018561840057373, 0.9018571376800537)
 })
-metaaniKpp.addComponentOrReplace(transform2)
-const gltfShape = new GLTFShape("d5d29267-ef0c-44e4-ab9b-e6f1b957f4c4/metaani_kpp.glb")
+hasedera3.addComponentOrReplace(transform2)
+const gltfShape = new GLTFShape("103e143c-8faa-4c31-bd0e-bbe2adc7ce1f/hasedera02.glb")
 gltfShape.withCollisions = true
 gltfShape.isPointerBlocker = true
 gltfShape.visible = true
-metaaniKpp.addComponentOrReplace(gltfShape)
+hasedera3.addComponentOrReplace(gltfShape)
 
-const metaaniLowPink3 = new Entity('metaaniLowPink3')
-engine.addEntity(metaaniLowPink3)
-metaaniLowPink3.setParent(_scene)
-const gltfShape2 = new GLTFShape("2433fb78-bbe6-4095-8738-fe066b49036c/metaani_low_pink.glb")
+const doom = new Entity('doom')
+engine.addEntity(doom)
+doom.setParent(_scene)
+const transform3 = new Transform({
+  position: new Vector3(31.937129974365234, 7.152557373046875e-7, 16.137954711914062),
+  rotation: new Quaternion(7.765282964171047e-15, -3.725290298461914e-8, 1.016901169661414e-14, -1),
+  scale: new Vector3(1.0000008344650269, 1, 1.0000008344650269)
+})
+doom.addComponentOrReplace(transform3)
+const gltfShape2 = new GLTFShape("564e2cb9-3b67-415b-b4ac-f5d09afe1d24/doom.glb")
 gltfShape2.withCollisions = true
 gltfShape2.isPointerBlocker = true
 gltfShape2.visible = true
-metaaniLowPink3.addComponentOrReplace(gltfShape2)
-const transform3 = new Transform({
-  position: new Vector3(25, 0.2746877670288086, 11.5),
-  rotation: new Quaternion(-1.5394153601527394e-15, 0.7071068286895752, -8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(1.5000019073486328, 1.5, 1.5000019073486328)
-})
-metaaniLowPink3.addComponentOrReplace(transform3)
+doom.addComponentOrReplace(gltfShape2)
 
-const metaaniLowPink9 = new Entity('metaaniLowPink9')
-engine.addEntity(metaaniLowPink9)
-metaaniLowPink9.setParent(_scene)
-metaaniLowPink9.addComponentOrReplace(gltfShape2)
-const transform4 = new Transform({
-  position: new Vector3(14, 0.2746877670288086, 23.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowPink9.addComponentOrReplace(transform4)
-
-const metaaniLowPink10 = new Entity('metaaniLowPink10')
-engine.addEntity(metaaniLowPink10)
-metaaniLowPink10.setParent(_scene)
-metaaniLowPink10.addComponentOrReplace(gltfShape2)
-const transform5 = new Transform({
-  position: new Vector3(14, 0.2746877670288086, 8),
-  rotation: new Quaternion(2.1885240244462587e-16, -0.5555702447891235, 6.622911996601033e-8, -0.8314695954322815),
-  scale: new Vector3(1.499999761581421, 1.5, 1.499999761581421)
-})
-metaaniLowPink10.addComponentOrReplace(transform5)
-
-const metaaniLowPink11 = new Entity('metaaniLowPink11')
-engine.addEntity(metaaniLowPink11)
-metaaniLowPink11.setParent(_scene)
-metaaniLowPink11.addComponentOrReplace(gltfShape2)
-const transform6 = new Transform({
-  position: new Vector3(14, 0, 19.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-metaaniLowPink11.addComponentOrReplace(transform6)
-
-const metaaniLowPink14 = new Entity('metaaniLowPink14')
-engine.addEntity(metaaniLowPink14)
-metaaniLowPink14.setParent(_scene)
-metaaniLowPink14.addComponentOrReplace(gltfShape2)
-const transform7 = new Transform({
-  position: new Vector3(7.5, 0.2746877670288086, 24.5),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowPink14.addComponentOrReplace(transform7)
-
-const metaaniLowPink16 = new Entity('metaaniLowPink16')
-engine.addEntity(metaaniLowPink16)
-metaaniLowPink16.setParent(_scene)
-metaaniLowPink16.addComponentOrReplace(gltfShape2)
-const transform8 = new Transform({
-  position: new Vector3(25.5, 0.2746877670288086, 28),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowPink16.addComponentOrReplace(transform8)
-
-const metaaniLowPink19 = new Entity('metaaniLowPink19')
-engine.addEntity(metaaniLowPink19)
-metaaniLowPink19.setParent(_scene)
-metaaniLowPink19.addComponentOrReplace(gltfShape2)
-const transform9 = new Transform({
-  position: new Vector3(18, 0, 16.5),
-  rotation: new Quaternion(8.817940676788736e-16, 0.7071068286895752, -8.429369557916289e-8, -0.7071068286895752),
-  scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
-})
-metaaniLowPink19.addComponentOrReplace(transform9)
-
-const metaaniLowPink20 = new Entity('metaaniLowPink20')
-engine.addEntity(metaaniLowPink20)
-metaaniLowPink20.setParent(_scene)
-metaaniLowPink20.addComponentOrReplace(gltfShape2)
-const transform10 = new Transform({
-  position: new Vector3(18, 0, 20),
-  rotation: new Quaternion(8.817940676788736e-16, 0.7071068286895752, -8.429369557916289e-8, -0.7071068286895752),
-  scale: new Vector3(1.0000004768371582, 1, 1.0000004768371582)
-})
-metaaniLowPink20.addComponentOrReplace(transform10)
-
-const metaaniLowPink21 = new Entity('metaaniLowPink21')
-engine.addEntity(metaaniLowPink21)
-metaaniLowPink21.setParent(_scene)
-metaaniLowPink21.addComponentOrReplace(gltfShape2)
-const transform11 = new Transform({
-  position: new Vector3(7.5, 0.24518904089927673, 18.5),
-  rotation: new Quaternion(8.817940676788736e-16, 0.7071068286895752, -8.429369557916289e-8, -0.7071068286895752),
-  scale: new Vector3(1.5000033378601074, 1.5, 1.5000033378601074)
-})
-metaaniLowPink21.addComponentOrReplace(transform11)
-
-const metaaniLowPink22 = new Entity('metaaniLowPink22')
-engine.addEntity(metaaniLowPink22)
-metaaniLowPink22.setParent(_scene)
-metaaniLowPink22.addComponentOrReplace(gltfShape2)
-const transform12 = new Transform({
-  position: new Vector3(16, 0, 13),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-metaaniLowPink22.addComponentOrReplace(transform12)
-
-const metaaniLowPink24 = new Entity('metaaniLowPink24')
-engine.addEntity(metaaniLowPink24)
-metaaniLowPink24.setParent(_scene)
-metaaniLowPink24.addComponentOrReplace(gltfShape2)
-const transform13 = new Transform({
-  position: new Vector3(16, 0, 13),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-metaaniLowPink24.addComponentOrReplace(transform13)
-
-const metaaniLowBLUE = new Entity('metaaniLowBLUE')
-engine.addEntity(metaaniLowBLUE)
-metaaniLowBLUE.setParent(_scene)
-const transform14 = new Transform({
-  position: new Vector3(7, 0.20924723148345947, 15.5),
-  rotation: new Quaternion(-5.531641835668406e-16, -0.5291494727134705, 6.307953270834332e-8, 0.8485286235809326),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowBLUE.addComponentOrReplace(transform14)
-const gltfShape3 = new GLTFShape("cf2b5d8f-0b5d-4943-b324-209cad86e22f/metaani_low_BLUE.glb")
+const dase3 = new Entity('dase3')
+engine.addEntity(dase3)
+dase3.setParent(_scene)
+const gltfShape3 = new GLTFShape("30ca0fce-dd47-4428-85c2-eac913d6d069/dase.glb")
 gltfShape3.withCollisions = true
 gltfShape3.isPointerBlocker = true
 gltfShape3.visible = true
-metaaniLowBLUE.addComponentOrReplace(gltfShape3)
-
-const metaaniLowBLUE2 = new Entity('metaaniLowBLUE2')
-engine.addEntity(metaaniLowBLUE2)
-metaaniLowBLUE2.setParent(_scene)
-metaaniLowBLUE2.addComponentOrReplace(gltfShape3)
-const transform15 = new Transform({
-  position: new Vector3(10.5, 0.20924723148345947, 6),
-  rotation: new Quaternion(-5.25009782487997e-15, -0.9741655588150024, 1.1612958417117625e-7, 0.2258351743221283),
-  scale: new Vector3(1.5000009536743164, 1.5, 1.5000009536743164)
+dase3.addComponentOrReplace(gltfShape3)
+const transform4 = new Transform({
+  position: new Vector3(41.34583282470703, 1.8521528244018555, 14.626455307006836),
+  rotation: new Quaternion(-0.19415095448493958, 0.09613373875617981, -0.019122188910841942, -0.9760625958442688),
+  scale: new Vector3(0.3198903203010559, 0.2769944965839386, 0.33596470952033997)
 })
-metaaniLowBLUE2.addComponentOrReplace(transform15)
+dase3.addComponentOrReplace(transform4)
 
-const metaaniLowBLUE3 = new Entity('metaaniLowBLUE3')
-engine.addEntity(metaaniLowBLUE3)
-metaaniLowBLUE3.setParent(_scene)
-metaaniLowBLUE3.addComponentOrReplace(gltfShape3)
-const transform16 = new Transform({
-  position: new Vector3(23, 0.20924723148345947, 6),
-  rotation: new Quaternion(-1.1720486370716057e-14, -0.9354563355445862, 1.1151508516604736e-7, -0.35344231128692627),
-  scale: new Vector3(1.5000014305114746, 1.5, 1.5000014305114746)
+const dase = new Entity('dase')
+engine.addEntity(dase)
+dase.setParent(_scene)
+dase.addComponentOrReplace(gltfShape3)
+const transform5 = new Transform({
+  position: new Vector3(22.450801849365234, 1.8521528244018555, 14.617576599121094),
+  rotation: new Quaternion(-0.19415095448493958, -0.0961337685585022, 0.019122226163744926, -0.9760625958442688),
+  scale: new Vector3(0.3198902904987335, 0.27699440717697144, 0.33596473932266235)
 })
-metaaniLowBLUE3.addComponentOrReplace(transform16)
-
-const metaaniLowBLUE4 = new Entity('metaaniLowBLUE4')
-engine.addEntity(metaaniLowBLUE4)
-metaaniLowBLUE4.setParent(_scene)
-metaaniLowBLUE4.addComponentOrReplace(gltfShape3)
-const transform17 = new Transform({
-  position: new Vector3(25, 0.20924723148345947, 19.5),
-  rotation: new Quaternion(1.484896698601603e-14, 0.41154611110687256, -4.9060112417009805e-8, 0.9113889932632446),
-  scale: new Vector3(1.5000019073486328, 1.5, 1.5000019073486328)
-})
-metaaniLowBLUE4.addComponentOrReplace(transform17)
-
-const metaaniLowBLUE5 = new Entity('metaaniLowBLUE5')
-engine.addEntity(metaaniLowBLUE5)
-metaaniLowBLUE5.setParent(_scene)
-metaaniLowBLUE5.addComponentOrReplace(gltfShape3)
-const transform18 = new Transform({
-  position: new Vector3(23, 0.20924723148345947, 26),
-  rotation: new Quaternion(-1.3818869890069342e-14, -0.031445592641830444, 3.748596100194845e-9, -0.9995055198669434),
-  scale: new Vector3(1.5000019073486328, 1.5, 1.5000019073486328)
-})
-metaaniLowBLUE5.addComponentOrReplace(transform18)
-
-const metaaniLowGREEN = new Entity('metaaniLowGREEN')
-engine.addEntity(metaaniLowGREEN)
-metaaniLowGREEN.setParent(_scene)
-const transform19 = new Transform({
-  position: new Vector3(3, 0.20479583740234375, 24.5),
-  rotation: new Quaternion(8.839015915307607e-16, -0.7730104923248291, 9.21500173944878e-8, 0.6343932747840881),
-  scale: new Vector3(1.5000007152557373, 1.5, 1.5000007152557373)
-})
-metaaniLowGREEN.addComponentOrReplace(transform19)
-const gltfShape4 = new GLTFShape("ee95b579-d352-4122-b190-b927c431b167/metaani_low_GREEN.glb")
-gltfShape4.withCollisions = true
-gltfShape4.isPointerBlocker = true
-gltfShape4.visible = true
-metaaniLowGREEN.addComponentOrReplace(gltfShape4)
-
-const metaaniLowGREEN2 = new Entity('metaaniLowGREEN2')
-engine.addEntity(metaaniLowGREEN2)
-metaaniLowGREEN2.setParent(_scene)
-metaaniLowGREEN2.addComponentOrReplace(gltfShape4)
-const transform20 = new Transform({
-  position: new Vector3(17, 0.20479583740234375, 28.5),
-  rotation: new Quaternion(-8.224116476533965e-15, 0.09801718592643738, -1.1684565315306372e-8, -0.9951847791671753),
-  scale: new Vector3(1.5000011920928955, 1.5, 1.5000011920928955)
-})
-metaaniLowGREEN2.addComponentOrReplace(transform20)
-
-const metaaniLowGREEN3 = new Entity('metaaniLowGREEN3')
-engine.addEntity(metaaniLowGREEN3)
-metaaniLowGREEN3.setParent(_scene)
-metaaniLowGREEN3.addComponentOrReplace(gltfShape4)
-const transform21 = new Transform({
-  position: new Vector3(25.5, 0.20479583740234375, 16),
-  rotation: new Quaternion(-9.734279659732396e-15, -0.4713967442512512, 5.6194863873315626e-8, -0.8819213509559631),
-  scale: new Vector3(1.500001072883606, 1.5, 1.500001072883606)
-})
-metaaniLowGREEN3.addComponentOrReplace(transform21)
-
-const metaaniLowGREEN4 = new Entity('metaaniLowGREEN4')
-engine.addEntity(metaaniLowGREEN4)
-metaaniLowGREEN4.setParent(_scene)
-metaaniLowGREEN4.addComponentOrReplace(gltfShape4)
-const transform22 = new Transform({
-  position: new Vector3(15, 0.20479583740234375, 4),
-  rotation: new Quaternion(1.2512631582988279e-14, 0.8819212913513184, -1.0513321768712558e-7, -0.4713967442512512),
-  scale: new Vector3(1.5000038146972656, 1.5, 1.5000038146972656)
-})
-metaaniLowGREEN4.addComponentOrReplace(transform22)
-
-const metaaniLowGREEN5 = new Entity('metaaniLowGREEN5')
-engine.addEntity(metaaniLowGREEN5)
-metaaniLowGREEN5.setParent(_scene)
-metaaniLowGREEN5.addComponentOrReplace(gltfShape4)
-const transform23 = new Transform({
-  position: new Vector3(7, 0.20479583740234375, 8),
-  rotation: new Quaternion(4.228468517306983e-15, -0.9569404125213623, 1.1407617250824842e-7, 0.2902846336364746),
-  scale: new Vector3(1.0000007152557373, 1, 1.0000007152557373)
-})
-metaaniLowGREEN5.addComponentOrReplace(transform23)
-
-const metaaniLowYELLOW = new Entity('metaaniLowYELLOW')
-engine.addEntity(metaaniLowYELLOW)
-metaaniLowYELLOW.setParent(_scene)
-const transform24 = new Transform({
-  position: new Vector3(11, 0.35415077209472656, 25.5),
-  rotation: new Quaternion(0, 0.09801710397005081, -1.1684546663559559e-8, -0.9951847195625305),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowYELLOW.addComponentOrReplace(transform24)
-const gltfShape5 = new GLTFShape("771ce836-e7b6-4e1f-8031-2aa3f628b683/metaani_low_YELLOW.glb")
-gltfShape5.withCollisions = true
-gltfShape5.isPointerBlocker = true
-gltfShape5.visible = true
-metaaniLowYELLOW.addComponentOrReplace(gltfShape5)
-
-const metaaniLowYELLOW2 = new Entity('metaaniLowYELLOW2')
-engine.addEntity(metaaniLowYELLOW2)
-metaaniLowYELLOW2.setParent(_scene)
-metaaniLowYELLOW2.addComponentOrReplace(gltfShape5)
-const transform25 = new Transform({
-  position: new Vector3(28.5, 0.35415077209472656, 29),
-  rotation: new Quaternion(0, 0.09801710397005081, -1.1684546663559559e-8, -0.9951847195625305),
-  scale: new Vector3(0.961939811706543, 1, 0.038060206919908524)
-})
-metaaniLowYELLOW2.addComponentOrReplace(transform25)
-
-const metaaniLowYELLOW3 = new Entity('metaaniLowYELLOW3')
-engine.addEntity(metaaniLowYELLOW3)
-metaaniLowYELLOW3.setParent(_scene)
-metaaniLowYELLOW3.addComponentOrReplace(gltfShape5)
-const transform26 = new Transform({
-  position: new Vector3(28.5, 0.35415077209472656, 9.5),
-  rotation: new Quaternion(2.427593673973746e-15, -0.5555702447891235, 6.622912707143769e-8, -0.8314695954322815),
-  scale: new Vector3(1.499999761581421, 1.5, 1.499999761581421)
-})
-metaaniLowYELLOW3.addComponentOrReplace(transform26)
-
-const metaaniLowYELLOW4 = new Entity('metaaniLowYELLOW4')
-engine.addEntity(metaaniLowYELLOW4)
-metaaniLowYELLOW4.setParent(_scene)
-metaaniLowYELLOW4.addComponentOrReplace(gltfShape5)
-const transform27 = new Transform({
-  position: new Vector3(19, 0.35415077209472656, 7),
-  rotation: new Quaternion(2.9965450693697493e-15, -0.9807853698730469, 1.1691871293351142e-7, -0.19509032368659973),
-  scale: new Vector3(1.5000015497207642, 1.5, 1.5000015497207642)
-})
-metaaniLowYELLOW4.addComponentOrReplace(transform27)
-
-const metaaniLowYELLOW5 = new Entity('metaaniLowYELLOW5')
-engine.addEntity(metaaniLowYELLOW5)
-metaaniLowYELLOW5.setParent(_scene)
-metaaniLowYELLOW5.addComponentOrReplace(gltfShape5)
-const transform28 = new Transform({
-  position: new Vector3(1.5, 0.35415077209472656, 4.5),
-  rotation: new Quaternion(-9.478568883285795e-15, 0.7730104923248291, -9.21500173944878e-8, -0.6343933343887329),
-  scale: new Vector3(1.5000035762786865, 1.5, 1.5000035762786865)
-})
-metaaniLowYELLOW5.addComponentOrReplace(transform28)
-
-const metaaniKppDCL = new Entity('metaaniKppDCL')
-engine.addEntity(metaaniKppDCL)
-metaaniKppDCL.setParent(_scene)
-const transform29 = new Transform({
-  position: new Vector3(16.199342727661133, 0, 16),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-metaaniKppDCL.addComponentOrReplace(transform29)
-const gltfShape6 = new GLTFShape("1aed5e17-50d6-4389-99e3-7de0dc44a0a0/Metaani_kpp_DCL01.glb")
-gltfShape6.withCollisions = true
-gltfShape6.isPointerBlocker = true
-gltfShape6.visible = true
-metaaniKppDCL.addComponentOrReplace(gltfShape6)
-
-const plopela = new Entity('plopela')
-engine.addEntity(plopela)
-plopela.setParent(_scene)
-const transform30 = new Transform({
-  position: new Vector3(16.390575408935547, 0, 16.004426956176758),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-plopela.addComponentOrReplace(transform30)
-const gltfShape7 = new GLTFShape("09d3912b-1434-47de-9f1e-5cf57223bbc2/plopela.glb")
-gltfShape7.withCollisions = true
-gltfShape7.isPointerBlocker = true
-gltfShape7.visible = true
-plopela.addComponentOrReplace(gltfShape7)
-
-const radio = new Entity('radio')
-engine.addEntity(radio)
-radio.setParent(_scene)
-const transform31 = new Transform({
-  position: new Vector3(3.5, 0.21853303909301758, 3.4943857192993164),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-radio.addComponentOrReplace(transform31)
-
-const movePlopela = new Entity('movePlopela')
-engine.addEntity(movePlopela)
-movePlopela.setParent(_scene)
-const transform32 = new Transform({
-  position: new Vector3(16, 0.035706520080566406, 16.0419979095459),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-movePlopela.addComponentOrReplace(transform32)
-const gltfShape8 = new GLTFShape("6a75f836-f7b0-42b4-86e5-a4852841fea7/move_plopela.glb")
-gltfShape8.withCollisions = true
-gltfShape8.isPointerBlocker = true
-gltfShape8.visible = true
-movePlopela.addComponentOrReplace(gltfShape8)
-
-const metaaniLowWHITE = new Entity('metaaniLowWHITE')
-engine.addEntity(metaaniLowWHITE)
-metaaniLowWHITE.setParent(_scene)
-const transform33 = new Transform({
-  position: new Vector3(5.5, 0.5, 28.94902229309082),
-  rotation: new Quaternion(0, 0, 0, 1),
-  scale: new Vector3(1, 1, 1)
-})
-metaaniLowWHITE.addComponentOrReplace(transform33)
-const gltfShape9 = new GLTFShape("c137c8d2-270f-4e0f-9144-d5be05ab10eb/metaani_low_WHITE.glb")
-gltfShape9.withCollisions = true
-gltfShape9.isPointerBlocker = true
-gltfShape9.visible = true
-metaaniLowWHITE.addComponentOrReplace(gltfShape9)
-
-const metaaniLowWHITE2 = new Entity('metaaniLowWHITE2')
-engine.addEntity(metaaniLowWHITE2)
-metaaniLowWHITE2.setParent(_scene)
-metaaniLowWHITE2.addComponentOrReplace(gltfShape9)
-const transform34 = new Transform({
-  position: new Vector3(22.5, 0.16158437728881836, 22.44902229309082),
-  rotation: new Quaternion(-7.264255352573603e-15, 0.2340276539325714, -2.789825614968322e-8, 0.9722299575805664),
-  scale: new Vector3(0.9999999403953552, 1, 0.9999999403953552)
-})
-metaaniLowWHITE2.addComponentOrReplace(transform34)
-
-const metaaniLowWHITE3 = new Entity('metaaniLowWHITE3')
-engine.addEntity(metaaniLowWHITE3)
-metaaniLowWHITE3.setParent(_scene)
-metaaniLowWHITE3.addComponentOrReplace(gltfShape9)
-const transform35 = new Transform({
-  position: new Vector3(26, 0.15856385231018066, 5.44902229309082),
-  rotation: new Quaternion(2.603421831955978e-15, -0.0980171263217926, 1.1684547551737978e-8, 0.9951847791671753),
-  scale: new Vector3(0.9999997019767761, 1, 0.9999997019767761)
-})
-metaaniLowWHITE3.addComponentOrReplace(transform35)
-
-const metaaniLowWHITE4 = new Entity('metaaniLowWHITE4')
-engine.addEntity(metaaniLowWHITE4)
-metaaniLowWHITE4.setParent(_scene)
-metaaniLowWHITE4.addComponentOrReplace(gltfShape9)
-const transform36 = new Transform({
-  position: new Vector3(7, 0.16158437728881836, 11.94902229309082),
-  rotation: new Quaternion(1.8971593230849432e-14, 0.629854679107666, -7.508452881666017e-8, -0.7767130732536316),
-  scale: new Vector3(1.0000001192092896, 1, 1.0000001192092896)
-})
-metaaniLowWHITE4.addComponentOrReplace(transform36)
-
-const imageFromURL = new Entity('imageFromURL')
-engine.addEntity(imageFromURL)
-imageFromURL.setParent(_scene)
-const transform37 = new Transform({
-  position: new Vector3(3.5907821655273438, 0.7035481929779053, 20.578533172607422),
-  rotation: new Quaternion(-1.5394153601527394e-15, -0.7071068286895752, 8.429369557916289e-8, 0.7071068286895752),
-  scale: new Vector3(5.215744495391846, 2.782395362854004, 1.0000035762786865)
-})
-imageFromURL.addComponentOrReplace(transform37)
+dase.addComponentOrReplace(transform5)
 
 const externalLink = new Entity('externalLink')
 engine.addEntity(externalLink)
 externalLink.setParent(_scene)
-const transform38 = new Transform({
-  position: new Vector3(3.552652597427368, 1.9520137310028076, 11.919734001159668),
-  rotation: new Quaternion(1.9792379591683637e-15, -0.7071067690849304, 8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(1, 1, 1)
+const transform6 = new Transform({
+  position: new Vector3(45.06896209716797, 0.7787649631500244, 28.983089447021484),
+  rotation: new Quaternion(1.126677994878287e-14, 1, -1.1920926823449918e-7, -3.725290298461914e-8),
+  scale: new Vector3(1.000000238418579, 1, 1.000000238418579)
 })
-externalLink.addComponentOrReplace(transform38)
+externalLink.addComponentOrReplace(transform6)
+
+const kaitenPe = new Entity('kaitenPe')
+engine.addEntity(kaitenPe)
+kaitenPe.setParent(_scene)
+const transform7 = new Transform({
+  position: new Vector3(32, 11.5, 16),
+  rotation: new Quaternion(0, 0, -1, -3.725290298461914e-8),
+  scale: new Vector3(1.0101100206375122, 53.44599533081055, 1.0101096630096436)
+})
+kaitenPe.addComponentOrReplace(transform7)
+const gltfShape4 = new GLTFShape("1d623d87-d88a-43dc-b928-e0b70f5cc4bb/kaiten_pe.glb")
+gltfShape4.withCollisions = true
+gltfShape4.isPointerBlocker = true
+gltfShape4.visible = true
+kaitenPe.addComponentOrReplace(gltfShape4)
+
+const videoStream2 = new Entity('videoStream2')
+engine.addEntity(videoStream2)
+videoStream2.setParent(_scene)
+const transform8 = new Transform({
+  position: new Vector3(31.980144500732422, 1.909799337387085, 9.78536319732666),
+  rotation: new Quaternion(6.534366214891625e-15, -3.725290298461914e-8, -1.1147268682122971e-14, -1),
+  scale: new Vector3(4.306685447692871, 4.306677341461182, 4.508155345916748)
+})
+videoStream2.addComponentOrReplace(transform8)
+
+const invisibleCylinder = new Entity('invisibleCylinder')
+engine.addEntity(invisibleCylinder)
+invisibleCylinder.setParent(_scene)
+const transform9 = new Transform({
+  position: new Vector3(32.49818420410156, 0.45859432220458984, 16),
+  rotation: new Quaternion(0, 0, 0, 1),
+  scale: new Vector3(21, 0.20999999344348907, 21)
+})
+invisibleCylinder.addComponentOrReplace(transform9)
 
 const yukaxxx = new Entity('yukaxxx')
 engine.addEntity(yukaxxx)
 yukaxxx.setParent(_scene)
-const transform39 = new Transform({
-  position: new Vector3(16.164539337158203, 0.1510906219482422, 24.363285064697266),
-  rotation: new Quaternion(3.0981581063376906e-15, 1, -1.1920927533992653e-7, 0),
-  scale: new Vector3(0.9775813817977905, 1, 0.9665331244468689)
+const transform10 = new Transform({
+  position: new Vector3(24, 0.04289817810058594, 16),
+  rotation: new Quaternion(-2.216015008144989e-15, 0.7071068286895752, -8.429370268459024e-8, 0.7071068286895752),
+  scale: new Vector3(1.0000007152557373, 1, 1.0000007152557373)
 })
-yukaxxx.addComponentOrReplace(transform39)
-const gltfShape10 = new GLTFShape("76b83cba-65dc-4615-9805-d4e154591961/yukaxxx2.glb")
-gltfShape10.withCollisions = true
-gltfShape10.isPointerBlocker = true
-gltfShape10.visible = true
-yukaxxx.addComponentOrReplace(gltfShape10)
+yukaxxx.addComponentOrReplace(transform10)
+const gltfShape5 = new GLTFShape("76b83cba-65dc-4615-9805-d4e154591961/yukaxxx2.glb")
+gltfShape5.withCollisions = true
+gltfShape5.isPointerBlocker = true
+gltfShape5.visible = true
+yukaxxx.addComponentOrReplace(gltfShape5)
 
-const metaaniLowBLUE6 = new Entity('metaaniLowBLUE6')
-engine.addEntity(metaaniLowBLUE6)
-metaaniLowBLUE6.setParent(_scene)
-metaaniLowBLUE6.addComponentOrReplace(gltfShape3)
-const transform40 = new Transform({
-  position: new Vector3(21.5, 0.20924723148345947, 36),
-  rotation: new Quaternion(-1.3818869890069342e-14, -0.031445592641830444, 3.748596100194845e-9, -0.9995055198669434),
-  scale: new Vector3(1.5000019073486328, 1.5, 1.5000019073486328)
+const kaitenPe2 = new Entity('kaitenPe2')
+engine.addEntity(kaitenPe2)
+kaitenPe2.setParent(_scene)
+kaitenPe2.addComponentOrReplace(gltfShape4)
+const transform11 = new Transform({
+  position: new Vector3(8.34585189819336, 0.20345044136047363, 17.08426284790039),
+  rotation: new Quaternion(3.725290298461914e-8, 9.265043735744247e-15, 1, 3.7252917195473856e-8),
+  scale: new Vector3(1.0101104974746704, 53.44601058959961, 1.0101103782653809)
 })
-metaaniLowBLUE6.addComponentOrReplace(transform40)
-
-const metaaniLowYELLOW6 = new Entity('metaaniLowYELLOW6')
-engine.addEntity(metaaniLowYELLOW6)
-metaaniLowYELLOW6.setParent(_scene)
-metaaniLowYELLOW6.addComponentOrReplace(gltfShape5)
-const transform41 = new Transform({
-  position: new Vector3(13.5, 0.35415077209472656, 40.5),
-  rotation: new Quaternion(0, 0.09801710397005081, -1.1684546663559559e-8, -0.9951847195625305),
-  scale: new Vector3(1.5, 1.5, 1.5)
-})
-metaaniLowYELLOW6.addComponentOrReplace(transform41)
-
-const metaaniLowGREEN6 = new Entity('metaaniLowGREEN6')
-engine.addEntity(metaaniLowGREEN6)
-metaaniLowGREEN6.setParent(_scene)
-metaaniLowGREEN6.addComponentOrReplace(gltfShape4)
-const transform42 = new Transform({
-  position: new Vector3(29, 0.20479583740234375, 38.5),
-  rotation: new Quaternion(-8.224116476533965e-15, 0.09801718592643738, -1.1684565315306372e-8, -0.9951847791671753),
-  scale: new Vector3(1.5000019073486328, 1.5, 1.5000019073486328)
-})
-metaaniLowGREEN6.addComponentOrReplace(transform42)
-
-const metaaniLowPink = new Entity('metaaniLowPink')
-engine.addEntity(metaaniLowPink)
-metaaniLowPink.setParent(_scene)
-metaaniLowPink.addComponentOrReplace(gltfShape2)
-const transform43 = new Transform({
-  position: new Vector3(21.5, 0.24518904089927673, 41),
-  rotation: new Quaternion(8.817940676788736e-16, 0.7071068286895752, -8.429369557916289e-8, -0.7071068286895752),
-  scale: new Vector3(1.5000065565109253, 1.5, 1.5000065565109253)
-})
-metaaniLowPink.addComponentOrReplace(transform43)
-
-const externalLink2 = new Entity('externalLink2')
-engine.addEntity(externalLink2)
-externalLink2.setParent(_scene)
-const transform44 = new Transform({
-  position: new Vector3(4.056306838989258, 1.850907564163208, 16.909637451171875),
-  rotation: new Quaternion(1.9792379591683637e-15, -0.7071067690849304, 8.429368847373553e-8, -0.7071068286895752),
-  scale: new Vector3(1, 1, 1)
-})
-externalLink2.addComponentOrReplace(transform44)
-
-const metaaniLowYELLOW7 = new Entity('metaaniLowYELLOW7')
-engine.addEntity(metaaniLowYELLOW7)
-metaaniLowYELLOW7.setParent(_scene)
-metaaniLowYELLOW7.addComponentOrReplace(gltfShape5)
-const transform45 = new Transform({
-  position: new Vector3(15.5, 0.35415077209472656, 45.5),
-  rotation: new Quaternion(2.427593673973746e-15, -0.5555702447891235, 6.622912707143769e-8, -0.8314695954322815),
-  scale: new Vector3(1.4999990463256836, 1.5, 1.4999990463256836)
-})
-metaaniLowYELLOW7.addComponentOrReplace(transform45)
-
-const metaaniLowWHITE5 = new Entity('metaaniLowWHITE5')
-engine.addEntity(metaaniLowWHITE5)
-metaaniLowWHITE5.setParent(_scene)
-metaaniLowWHITE5.addComponentOrReplace(gltfShape9)
-const transform46 = new Transform({
-  position: new Vector3(26, 0.15856385231018066, 36.94902038574219),
-  rotation: new Quaternion(2.603421831955978e-15, -0.0980171263217926, 1.1684547551737978e-8, 0.9951847791671753),
-  scale: new Vector3(0.9999997615814209, 1, 0.9999997615814209)
-})
-metaaniLowWHITE5.addComponentOrReplace(transform46)
-
-const metaaniLowYELLOW8 = new Entity('metaaniLowYELLOW8')
-engine.addEntity(metaaniLowYELLOW8)
-metaaniLowYELLOW8.setParent(_scene)
-metaaniLowYELLOW8.addComponentOrReplace(gltfShape5)
-const transform47 = new Transform({
-  position: new Vector3(10, 0.35415077209472656, 33),
-  rotation: new Quaternion(2.9965450693697493e-15, -0.9807853698730469, 1.1691871293351142e-7, -0.19509032368659973),
-  scale: new Vector3(1.5000081062316895, 1.5, 1.5000081062316895)
-})
-metaaniLowYELLOW8.addComponentOrReplace(transform47)
-
-const metaaniLowPink2 = new Entity('metaaniLowPink2')
-engine.addEntity(metaaniLowPink2)
-metaaniLowPink2.setParent(_scene)
-metaaniLowPink2.addComponentOrReplace(gltfShape2)
-const transform48 = new Transform({
-  position: new Vector3(32, 0.2746877670288086, 6.5),
-  rotation: new Quaternion(2.1885240244462587e-16, -0.5555702447891235, 6.622911996601033e-8, -0.8314695954322815),
-  scale: new Vector3(1.4999995231628418, 1.5, 1.4999995231628418)
-})
-metaaniLowPink2.addComponentOrReplace(transform48)
-
-const metaaniLowBLUE7 = new Entity('metaaniLowBLUE7')
-engine.addEntity(metaaniLowBLUE7)
-metaaniLowBLUE7.setParent(_scene)
-metaaniLowBLUE7.addComponentOrReplace(gltfShape3)
-const transform49 = new Transform({
-  position: new Vector3(28.5, 0.20924723148345947, 4.5),
-  rotation: new Quaternion(-5.25009782487997e-15, -0.9741655588150024, 1.1612958417117625e-7, 0.2258351743221283),
-  scale: new Vector3(1.5000014305114746, 1.5, 1.5000014305114746)
-})
-metaaniLowBLUE7.addComponentOrReplace(transform49)
-
-const metaaniLowWHITE6 = new Entity('metaaniLowWHITE6')
-engine.addEntity(metaaniLowWHITE6)
-metaaniLowWHITE6.setParent(_scene)
-metaaniLowWHITE6.addComponentOrReplace(gltfShape9)
-const transform50 = new Transform({
-  position: new Vector3(21.5, 0.16158437728881836, 40.44902038574219),
-  rotation: new Quaternion(-7.264255352573603e-15, 0.2340276539325714, -2.789825614968322e-8, 0.9722299575805664),
-  scale: new Vector3(0.9999998807907104, 1, 0.9999998807907104)
-})
-metaaniLowWHITE6.addComponentOrReplace(transform50)
-
-const metaaniLowBLUE8 = new Entity('metaaniLowBLUE8')
-engine.addEntity(metaaniLowBLUE8)
-metaaniLowBLUE8.setParent(_scene)
-metaaniLowBLUE8.addComponentOrReplace(gltfShape3)
-const transform51 = new Transform({
-  position: new Vector3(7, 0.20924723148345947, 44),
-  rotation: new Quaternion(-1.3818869890069342e-14, -0.031445592641830444, 3.748596100194845e-9, -0.9995055198669434),
-  scale: new Vector3(1.500001311302185, 1.5, 1.500001311302185)
-})
-metaaniLowBLUE8.addComponentOrReplace(transform51)
+kaitenPe2.addComponentOrReplace(transform11)
 
 const glossyAethereaTiles = new Entity('glossyAethereaTiles')
 engine.addEntity(glossyAethereaTiles)
 glossyAethereaTiles.setParent(_scene)
-const gltfShape11 = new GLTFShape("6b33f46e-9667-45e5-bd90-85f372ee2490/CityTile.glb")
-gltfShape11.withCollisions = true
-gltfShape11.isPointerBlocker = true
-gltfShape11.visible = true
-glossyAethereaTiles.addComponentOrReplace(gltfShape11)
-const transform52 = new Transform({
+const gltfShape6 = new GLTFShape("6b33f46e-9667-45e5-bd90-85f372ee2490/CityTile.glb")
+gltfShape6.withCollisions = true
+gltfShape6.isPointerBlocker = true
+gltfShape6.visible = true
+glossyAethereaTiles.addComponentOrReplace(gltfShape6)
+const transform12 = new Transform({
   position: new Vector3(8, 0, 8),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles.addComponentOrReplace(transform52)
+glossyAethereaTiles.addComponentOrReplace(transform12)
 
 const glossyAethereaTiles2 = new Entity('glossyAethereaTiles2')
 engine.addEntity(glossyAethereaTiles2)
 glossyAethereaTiles2.setParent(_scene)
-glossyAethereaTiles2.addComponentOrReplace(gltfShape11)
-const transform53 = new Transform({
+glossyAethereaTiles2.addComponentOrReplace(gltfShape6)
+const transform13 = new Transform({
   position: new Vector3(24, 0, 8),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles2.addComponentOrReplace(transform53)
+glossyAethereaTiles2.addComponentOrReplace(transform13)
 
 const glossyAethereaTiles3 = new Entity('glossyAethereaTiles3')
 engine.addEntity(glossyAethereaTiles3)
 glossyAethereaTiles3.setParent(_scene)
-glossyAethereaTiles3.addComponentOrReplace(gltfShape11)
-const transform54 = new Transform({
-  position: new Vector3(8, 0, 24),
+glossyAethereaTiles3.addComponentOrReplace(gltfShape6)
+const transform14 = new Transform({
+  position: new Vector3(40, 0, 8),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles3.addComponentOrReplace(transform54)
+glossyAethereaTiles3.addComponentOrReplace(transform14)
 
 const glossyAethereaTiles4 = new Entity('glossyAethereaTiles4')
 engine.addEntity(glossyAethereaTiles4)
 glossyAethereaTiles4.setParent(_scene)
-glossyAethereaTiles4.addComponentOrReplace(gltfShape11)
-const transform55 = new Transform({
-  position: new Vector3(24, 0, 24),
+glossyAethereaTiles4.addComponentOrReplace(gltfShape6)
+const transform15 = new Transform({
+  position: new Vector3(8, 0, 24),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles4.addComponentOrReplace(transform55)
+glossyAethereaTiles4.addComponentOrReplace(transform15)
 
 const glossyAethereaTiles5 = new Entity('glossyAethereaTiles5')
 engine.addEntity(glossyAethereaTiles5)
 glossyAethereaTiles5.setParent(_scene)
-glossyAethereaTiles5.addComponentOrReplace(gltfShape11)
-const transform56 = new Transform({
-  position: new Vector3(8, 0, 40),
+glossyAethereaTiles5.addComponentOrReplace(gltfShape6)
+const transform16 = new Transform({
+  position: new Vector3(24, 0, 24),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles5.addComponentOrReplace(transform56)
+glossyAethereaTiles5.addComponentOrReplace(transform16)
 
 const glossyAethereaTiles6 = new Entity('glossyAethereaTiles6')
 engine.addEntity(glossyAethereaTiles6)
 glossyAethereaTiles6.setParent(_scene)
-glossyAethereaTiles6.addComponentOrReplace(gltfShape11)
-const transform57 = new Transform({
-  position: new Vector3(24, 0, 40),
+glossyAethereaTiles6.addComponentOrReplace(gltfShape6)
+const transform17 = new Transform({
+  position: new Vector3(40, 0, 24),
   rotation: new Quaternion(0, 0, 0, 1),
   scale: new Vector3(1, 1, 1)
 })
-glossyAethereaTiles6.addComponentOrReplace(transform57)
+glossyAethereaTiles6.addComponentOrReplace(transform17)
 
 const channelId = Math.random().toString(16).slice(2)
 const channelBus = new MessageBus()
@@ -680,7 +221,6 @@ const script3 = new Script3()
 script1.init(options)
 script2.init(options)
 script3.init(options)
-script1.spawn(radio, {"startOn":true,"volume":1,"onClickText":"Radio On/Off","onClick":[{"entityName":"radio","actionId":"toggle","values":{}}],"customStation":"https://static.wixstatic.com/mp3/ebffef_32520d42f8824ae898864cfa07048d68.mp3"}, createChannel(channelId, radio, channelBus))
-script2.spawn(imageFromURL, {"image":"https://static.wixstatic.com/media/ebffef_34b695dc6bcd4448a66b09b460b24b46~mv2.png"}, createChannel(channelId, imageFromURL, channelBus))
-script3.spawn(externalLink, {"url":"https://youtu.be/93QTmFoomBk"}, createChannel(channelId, externalLink, channelBus))
-script3.spawn(externalLink2, {"url":"https://metatokyo.xyz/"}, createChannel(channelId, externalLink2, channelBus))
+script1.spawn(externalLink, {"url":"https://metatokyo.xyz/","name":"Metatokyo　WEB"}, createChannel(channelId, externalLink, channelBus))
+script2.spawn(videoStream2, {"startOn":true,"onClickText":"Play video","volume":1,"onClick":[{"entityName":"videoStream2","actionId":"toggle","values":{}}],"customStation":"https://player.vimeo.com/external/765576164.m3u8?s=0409f88630a5c97b26c306cd88797bebc538634c&logging=false","station":"https://theuniverse.club/live/sohoplaza/index.m3u8"}, createChannel(channelId, videoStream2, channelBus))
+script3.spawn(invisibleCylinder, {"enabled":true}, createChannel(channelId, invisibleCylinder, channelBus))
